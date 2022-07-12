@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Responsive Web Codding </title>
+
+    <!--Viewport meta tag(mandatory for responsiveness)-->
+    <meta name="viewport" content="width=device-witdh, inial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Buraya site açıklmasını yaz">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!--Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div id="page">
+        <header id="page-header">
+            <!-- Logo -->
+            <a href="index.html" class="brand-logo">
+                <img src="img/favicon.jpg" alt="Logo">
+                LOGO
+            </a>
+
+            <button type="button" id="btn-toggle-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <!-- Main Nav -->
+            <nav >
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Ana Sayfa
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            Hakkımızda
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            İletişim
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--Carousel-->
+            <div id="main-gallery">
+                <div class="slider">
+                    <div class="slide"><img src="img/medium.jpg" alt="bisiklet"></div>
+                    <div class="slide"><img src="img/pexels-olya-kobruseva-4679121.jpg" alt="bisiklet"></div>
+
+                </div>
+
+                <nav class="bullets">
+                    <button type="button">
+                        1
+                    </button>
+
+                    <button type="button">
+                        2
+                    </button>
+
+                </nav>
+
+                <nav class="directional">
+                    <button>
+                        Prev
+                    </button>
+
+                    <button>
+                        next
+                    </button>
+
+                </nav>
+            </div>
+
+            <!-- Section 1-->
+
+            <section>
+                <h1>
+                    Section 1
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt alias laudantium velit. Nobis
+                    sunt illum ipsam et explicabo. Dolores quae natus eum libero ducimus quo reprehenderit eaque quidem
+                    quaerat? Nostrum.
+                </p>
+            </section>
+            <!-- Section 2-->
+            <section>
+                <h1>
+                    Section2
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt optio quae sapiente distinctio
+                    expedita quia vitae neque minima tenetur reiciendis dignissimos, eos odio. Aliquid neque et porro
+                    debitis quos quidem.
+                </p>
+            </section>
+
+        </main>
+
+        <footer id="page-footer">
+
+            <P>KD-10</P>
+            <!--Social Nav-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-stack-overflow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
